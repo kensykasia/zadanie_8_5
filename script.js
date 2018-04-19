@@ -1,7 +1,5 @@
-console.log(getTriangleArea(10,6));
-
-var triangle1Area = getTriangleArea(10, 15);
-var triangle2Area = getTriangleArea(7, 14);
-var triangle3Area = getTriangleArea(5, 10);
-
-console.log(triangle3Area);
+var a = 5;
+var h = 10;
+var triangleArea = 0;
+triangleArea = a*h/2;
+console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
